@@ -4,7 +4,7 @@
 #
 Name     : pypi-lz4
 Version  : 4.0.1
-Release  : 6
+Release  : 7
 URL      : https://files.pythonhosted.org/packages/36/bf/fa0380f3bfc4a37ebde793709b70666485835355f666d72576857f7c5269/lz4-4.0.1.tar.gz
 Source0  : https://files.pythonhosted.org/packages/36/bf/fa0380f3bfc4a37ebde793709b70666485835355f666d72576857f7c5269/lz4-4.0.1.tar.gz
 Summary  : LZ4 Bindings for Python
@@ -98,7 +98,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1656387541
+export SOURCE_DATE_EPOCH=1656395071
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
