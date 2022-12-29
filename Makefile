@@ -1,5 +1,5 @@
 PKG_NAME := pypi-lz4
-URL = https://files.pythonhosted.org/packages/65/8d/4d913798e17735839c7666e81985bd230f739927d066890b511a78c542d8/lz4-4.0.2.tar.gz
+URL = https://files.pythonhosted.org/packages/8f/cc/cedcd6c25f30e4a72ee9589cd01b9e7c0d427e763e6567e832eb639c443b/lz4-4.2.0.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
