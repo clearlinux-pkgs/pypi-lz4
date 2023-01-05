@@ -4,7 +4,7 @@
 #
 Name     : pypi-lz4
 Version  : 4.3.2
-Release  : 17
+Release  : 18
 URL      : https://files.pythonhosted.org/packages/9f/54/32b2d68d25b80ae4037cd1c68b8a6a28c6753cba3632cbf6d64bebd2b200/lz4-4.3.2.tar.gz
 Source0  : https://files.pythonhosted.org/packages/9f/54/32b2d68d25b80ae4037cd1c68b8a6a28c6753cba3632cbf6d64bebd2b200/lz4-4.3.2.tar.gz
 Summary  : LZ4 Bindings for Python
