@@ -5,7 +5,7 @@
 #
 Name     : pypi-lz4
 Version  : 4.3.2
-Release  : 19
+Release  : 20
 URL      : https://files.pythonhosted.org/packages/9f/54/32b2d68d25b80ae4037cd1c68b8a6a28c6753cba3632cbf6d64bebd2b200/lz4-4.3.2.tar.gz
 Source0  : https://files.pythonhosted.org/packages/9f/54/32b2d68d25b80ae4037cd1c68b8a6a28c6753cba3632cbf6d64bebd2b200/lz4-4.3.2.tar.gz
 Summary  : LZ4 Bindings for Python
@@ -18,8 +18,10 @@ BuildRequires : buildreq-distutils3
 BuildRequires : pypi(future)
 BuildRequires : pypi(pkgconfig)
 BuildRequires : pypi(py)
+BuildRequires : pypi(setuptools)
 BuildRequires : pypi(setuptools_scm)
 BuildRequires : pypi(tox)
+BuildRequires : pypi(wheel)
 BuildRequires : pypi-pluggy
 BuildRequires : pypi-pytest
 BuildRequires : pypi-tox
@@ -61,8 +63,6 @@ Group: Default
 Requires: python3-core
 Provides: pypi(lz4)
 Requires: pypi(future)
-Requires: pypi(pkgconfig)
-Requires: pypi(setuptools_scm)
 Requires: pypi(tox)
 
 %description python3
@@ -81,7 +81,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1683040702
+export SOURCE_DATE_EPOCH=1685555875
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
